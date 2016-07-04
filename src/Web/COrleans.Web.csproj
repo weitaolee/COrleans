@@ -14,7 +14,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>COrleans.Web</RootNamespace>
-    <AssemblyName>COrleans.WebWeb</AssemblyName>
+    <AssemblyName>COrleans.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -254,12 +254,13 @@
     <Content Include="public\js\respond.min.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AppConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdvancedController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TutorialsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -287,16 +288,35 @@
     <Content Include="public\fonts\FontAwesome.otf" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+    <Content Include="Views\Home\AboutUs.cshtml" />
+    <Content Include="Views\Shared\_Layout_Advanced.cshtml" />
+    <Content Include="Views\Shared\_Layout_Turorials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <Content Include="Views\Advanced\Concept.cshtml" />
+    <Content Include="Views\Tutorials\Benefits.cshtml" />
+    <Content Include="Views\Tutorials\Clients.cshtml" />
+    <Content Include="Views\Tutorials\Grains.cshtml" />
+    <Content Include="Views\Tutorials\Introduction.cshtml" />
+    <Content Include="Views\Tutorials\Silos.cshtml" />
+    <Content Include="Views\Tutorials\FAQ.cshtml" />
+    <Content Include="Views\Tutorials\Prerequisites.cshtml" />
+    <Content Include="Views\Tutorials\VsTool.cshtml" />
+    <Content Include="Views\Tutorials\TemFromBigPark.cshtml" />
+    <Content Include="Views\Tutorials\NugetPackages.cshtml" />
+    <Content Include="Views\Tutorials\ChangeLog.cshtml" />
+    <Content Include="Views\Tutorials\DevGrain.cshtml" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

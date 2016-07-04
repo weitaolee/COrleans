@@ -30,7 +30,47 @@
 </head>
 <body>
     @Html.Partial("_Header")
-    @RenderBody()
+    <!-- Main content -->
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 hidden-lg">
+                    <div class="padd"><div class="navis"></div></div>
+                </div>
+                <div class="visible-lg">
+                    <div class="col-md-3 sidey">
+                        <!-- Sidebar Starts Here -->
+                        <div class="padd sidebar">
+                            <!-- 2nd widget -->
+                            <div class="widget">
+                                <h3 class="matopen">高级进阶</h3>
+                                <div class="matter">
+                                    <ul>
+                                        <li><a href="#">高级概念</a></li>
+                                        <li><a href="#">主要特性</a></li>
+                                        <li><a href="#">外部Task和Grain</a></li>
+                                        <li><a href="#">Orleans集群管理</a></li>
+                                        <li><a href="#">Orleans消息分发保证</a></li>
+                                        <li><a href="#">Orleans Runtime数据表</a></li>
+                                        <li><a href="#">基于Consul部署</a></li>
+                                        <li><a href="#">负载均衡</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sidebar Ends Here -->
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    @RenderBody()
+                </div>
+                <div class="mobily hidden-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- JavaScript files -->
     <!-- jQuery -->
     <script src="~/public/js/jquery.js"></script>

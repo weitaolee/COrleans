@@ -13,5 +13,13 @@ namespace COrleans.Web.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        [Route("~/aboutus")]
+        public ActionResult AboutUs()
+        {
+
+            return View();
+        }
     }
 }
