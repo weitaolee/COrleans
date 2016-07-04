@@ -311,6 +311,14 @@
     <Content Include="Views\Tutorials\NugetPackages.cshtml" />
     <Content Include="Views\Tutorials\ChangeLog.cshtml" />
     <Content Include="Views\Tutorials\DevGrain.cshtml" />
+    <Content Include="Views\Tutorials\GrainPersistence.cshtml" />
+    <Content Include="Views\Tutorials\DevClient.cshtml" />
+    <Content Include="Views\Tutorials\Observer.cshtml" />
+    <Content Include="Views\Tutorials\RunApplication.cshtml" />
+    <Content Include="Views\Tutorials\AppBootWithSilo.cshtml" />
+    <Content Include="Views\Tutorials\TimerAndReminder.cshtml" />
+    <Content Include="Views\Tutorials\OrleansStream.cshtml" />
+    <Content Include="Views\Tutorials\Debugging.cshtml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

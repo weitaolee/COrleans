@@ -74,5 +74,53 @@ namespace COrleans.Web.Controllers
         {
             return View();
         }
+
+        [Route("~/tutorials/grainpersistence")]
+        public ActionResult GrainPersistence()
+        {
+            return View();
+        } 
+
+        [Route("~/tutorials/devclient")]
+        public ActionResult DevClient()
+        {
+            return View();
+        }
+
+        [Route("~/tutorials/observer")]
+        public ActionResult Observer()
+        {
+            return View();
+        } 
+
+        [Route("~/tutorials/runapplication")]
+        public ActionResult RunApplication()
+        {
+            return View();
+        }
+
+        [Route("~/tutorials/appbootwithsilo")]
+        public ActionResult AppBootWithSilo()
+        {
+            return View();
+        }
+
+        [Route("~/tutorials/timerandreminder")]
+        public ActionResult TimerAndReminder()
+        {
+            return View();
+        }
+
+        [Route("~/tutorials/orleansstream")]
+        public ActionResult OrleansStream()
+        {
+            return View();
+        } 
+
+        [Route("~/tutorials/debugging")]
+        public ActionResult Debugging()
+        {
+            return View();
+        }
     }
 }
