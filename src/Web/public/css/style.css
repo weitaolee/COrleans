@@ -437,6 +437,8 @@ body { font-family: lato,"Helvetica Neue",Helvetica,Arial,sans-serif; }
     .title:hover { color: white; }
 .header { background-color: #333; background-image: url("../img/background.jpg"); background-repeat: no-repeat; background-size: 100%; }
 
+.container p { text-indent: 2em;font-size: 14px; }
+
 .subtitle { font-size: 28px; color: white; }
 .options { margin-top: 50px; text-align: center; }
 .menu { font-size: 16px; color: #666; }
